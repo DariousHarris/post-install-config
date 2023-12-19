@@ -16,40 +16,33 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
 
-- Configure an Admin and Agent
-- Configure Roles, Departments and Teams
-- Configure Users(Customers)
-- SLA
-- Help Topics
-
-<h2>Configuration Steps</h2>
+<h2>Configuring Roles, Departments, and Teams</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The Admin and Agent roles are established. I registered the Admin so new tickets can be created. I'll also create a new
-  role : "Supreme Admin", and Department : "System Administrators". Also two new Teams, Level I & II support.
+The post-installation setup phase focuses on refining the osTicket environment for specific roles and responsibilities. Administering the Admin Panel involves configuring roles such as "Supreme Admin" and defining departments such as "System Administrators." Further segmentation is achieved through the creation of teams like "Level I Support" and "Level II Support." Additionally, the global setting to allow anyone to create tickets is adjusted in the User Settings.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-To get more familiar with the Admin role I created two new Agents, John and Jane Doe. 
-  Then created two new customers Karen and Ken for later. Afterwards 3 SLA's are created.
-  Sev-A (1 hour, 24/7) Sev-B (4 hours, 24/7) Sev-C (8 hours, business hours)
-</p>
-<br />
+<h2>Agent and User Configuration</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Then the Help Topics must be created to help organize tickets. 
-  I created 4 "Business Critical Outage" "Personal Computer Issues" "Equipment Request" and " Password Reset
+Agents, who are the workers in the system, are configured through the Admin Panel. New agents, Jane and John, are added to the system, each with their assigned responsibilities. Simultaneously, customers or end-users are configured through the Agent Panel, adding users like Karen and Ken to the system.
+</p>
+<br />
+
+<h2>Service Level Agreements (SLA) and Help Topics</h2>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To enhance ticket management, SLAs are configured using the Admin Panel. Different levels of service are defined, such as Sev-A with a 1-hour response time 24/7, Sev-B with a 4-hour response time 24/7, and Sev-C with an 8-hour response time during business hours. Additionally, Help Topics are configured to streamline the categorization of issues. Topics like "Business Critical Outage," "Personal Computer Issues," "Equipment Request," and "Password Reset" are established to provide clarity and efficiency in ticket handling.
+
 </p>
 <br />
